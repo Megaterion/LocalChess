@@ -9,8 +9,8 @@ from client import Network
 
 pygame.font.init()
 
-board = pygame.transform.scale(pygame.image.load(os.path.join("img", "board_alt.png")), (750, 750))
-chessbg = pygame.image.load(os.path.join("img", "chessbg.png"))
+board = pygame.transform.scale(pygame.image.load(os.path.join("img", "board.png")), (750, 750))
+chessbg = pygame.image.load(os.path.join("img", "title.png"))
 rect = (113, 113, 525, 525)
 
 turn = "w"
@@ -182,10 +182,10 @@ def main():
                 bo = n.send("winner w")
 
         if bo.winner == "w":
-            end_screen(win, "White is the Winner!")
+            end_screen(win, "Weiß gewinnt!")
             run = False
         elif bo.winner == "b":
-            end_screen(win, "Black is the winner")
+            end_screen(win, "Schwarz gewinnt")
             run = False
 
         for event in pygame.event.get():
