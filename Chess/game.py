@@ -9,8 +9,8 @@ from client import Network
 
 pygame.font.init()
 
-board = pygame.transform.scale(pygame.image.load(os.path.join("img", "board.png")), (750, 750))
-chessbg = pygame.image.load(os.path.join("img", "title.png"))
+board = pygame.transform.scale(pygame.image.load(os.path.join("Schach_Assets", "board.png")), (750, 750))
+chessbg = pygame.image.load(os.path.join("Schach_Assets", "title.png"))
 rect = (113, 113, 525, 525)
 
 turn = "w"
