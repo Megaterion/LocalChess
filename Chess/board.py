@@ -7,19 +7,19 @@ import time
 import pygame
 import os
 
-b_bishop = pygame.image.load(os.path.join("img", "black_bishop.png"))
-b_king = pygame.image.load(os.path.join("img", "black_king.png"))
-b_knight = pygame.image.load(os.path.join("img", "black_knight.png"))
-b_pawn = pygame.image.load(os.path.join("img", "black_pawn.png"))
-b_queen = pygame.image.load(os.path.join("img", "black_queen.png"))
-b_rook = pygame.image.load(os.path.join("img", "black_rook.png"))
+b_bishop = pygame.image.load(os.path.join("Schach_Assets", "black_bishop.png"))
+b_king = pygame.image.load(os.path.join("Schach_Assets", "black_king.png"))
+b_knight = pygame.image.load(os.path.join("Schach_Assets", "black_knight.png"))
+b_pawn = pygame.image.load(os.path.join("Schach_Assets", "black_pawn.png"))
+b_queen = pygame.image.load(os.path.join("Schach_Assets", "black_queen.png"))
+b_rook = pygame.image.load(os.path.join("Schach_Assets", "black_rook.png"))
 
-w_bishop = pygame.image.load(os.path.join("img", "white_bishop.png"))
-w_king = pygame.image.load(os.path.join("img", "white_king.png"))
-w_knight = pygame.image.load(os.path.join("img", "white_knight.png"))
-w_pawn = pygame.image.load(os.path.join("img", "white_pawn.png"))
-w_queen = pygame.image.load(os.path.join("img", "white_queen.png"))
-w_rook = pygame.image.load(os.path.join("img", "white_rook.png"))
+w_bishop = pygame.image.load(os.path.join("Schach_Assets", "white_bishop.png"))
+w_king = pygame.image.load(os.path.join("Schach_Assets", "white_king.png"))
+w_knight = pygame.image.load(os.path.join("Schach_Assets", "white_knight.png"))
+w_pawn = pygame.image.load(os.path.join("Schach_Assets", "white_pawn.png"))
+w_queen = pygame.image.load(os.path.join("Schach_Assets", "white_queen.png"))
+w_rook = pygame.image.load(os.path.join("Schach_Assets", "white_rook.png"))
 
 b = [b_bishop, b_king, b_knight, b_pawn, b_queen, b_rook]
 w = [w_bishop, w_king, w_knight, w_pawn, w_queen, w_rook]
