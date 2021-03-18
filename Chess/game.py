@@ -24,6 +24,9 @@ def menu_screen(win, name):
     while run:
         win.blit(chessbg, (0, 0))
         small_font = pygame.font.SysFont("comicsans", 50)
+        
+        text = small_font.render("Mit Maustaste klicken um das Spiel zu starten", 1, (255, 0, 0))
+        win.blit(text, (width / 2 - text.get_width() / 2, 200))
 
         if offline:
             off = small_font.render("Server Offline, Versuche es später erneut...", 1, (255, 0, 0))
